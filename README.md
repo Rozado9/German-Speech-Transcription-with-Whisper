@@ -29,4 +29,24 @@ Windows
 ```bash
 C:\Program Files\ffmpeg
 ```
+- Umgebungsvariablen einrichten
+  Füge den bin-Ordner von FFmpeg zu den Umgebungsvariablen hinzu:
+  ```bash
+  C:\Program Files\ffmpeg\bin
+  ```
+  Gehe zu den Systemeinstellungen -> Erweiterte Systemeinstellungen -> Umgebungsvariablen -> Path -> Bearbeiten -> Neu -> Füge den Pfad ein -> OK.
+
+- Überprüfen der Installation
+  Überprüfe die Installation von FFmpeg, indem du das folgende Kommando in der Kommandozeile ausführst:
+  ```bash
+  ffmpeg -version
+  ```
+### Nutzung
+Um das Transkriptionsskript zu starten, führe speech_to_text.py aus dem Hauptverzeichnis aus:
+
+ ```bash
+  python speech_to_text.py
+  ```
+
+
 
