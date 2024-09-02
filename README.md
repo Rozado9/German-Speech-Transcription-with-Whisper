@@ -23,7 +23,7 @@ FFmpeg ist essentiell für die Audioverarbeitung. Die Installation variiert je n
 
 Windows
 - Lade FFmpeg von der offiziellen FFmpeg-Builds-Seite herunter:
-  https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-02-12-48/ffmpeg-N-116839-g3f9ca51015-win64-lgpl-shared.zip
+  - [Download FFmpeg Windows 64-bit GPL](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2024-09-02-12-48/ffmpeg-N-116839-g3f9ca51015-win64-lgpl-shared.zip)
 
 -  Entpacke die heruntergeladene Datei in das Verzeichnis deiner Wahl, z.B.:
 ```bash
