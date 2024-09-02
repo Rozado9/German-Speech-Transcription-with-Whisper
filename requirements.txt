@@ -1,0 +1,5 @@
+numpy==1.26.4
+torch==2.3.1+cu121
+openai-whisper==20231117  # Diese Zeile passt zur spezifischen Version von Whisper, die du genannt hast
+sounddevice==0.4.7
+wavio==0.0.9
