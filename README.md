@@ -1,6 +1,6 @@
 # German-Speech-Transcription-with-Whisper
 
-Dieses Repository enthält ein Python-Skript zur Transkription deutscher Sprache, das die OpenAI Whisper-Technologie nutzt. Das Projekt verwendet FFmpeg für die Audioverarbeitung.
+Dieses Repository enthält ein Python-Skript zur Transkription von Sprache, das die OpenAI Whisper-Technologie nutzt. Es ist in der Lage, viele Sprachen zu transkribieren und verwendet FFmpeg für die Audioverarbeitung.
 
 ## Inhalte
 
@@ -59,8 +59,11 @@ Linux
 Um das Transkriptionsskript zu starten, führe speech_to_text.py aus dem Hauptverzeichnis aus:
 
  ```bash
+
   python speech_to_text.py
   ```
+Folge den Anweisungen im Skript, um eine Audioaufnahme zu transkribieren oder eine vorhandene Datei zu verwenden.
 
-
+### Unterstützte Sprachen
+Das Modell kann eine Vielzahl von Sprachen transkribieren, darunter Englisch, Deutsch, Spanisch, Französisch, Chinesisch und viele mehr. Eine vollständige Liste der unterstützten Sprachen findest du im Code, unter der Variable languages.
 
