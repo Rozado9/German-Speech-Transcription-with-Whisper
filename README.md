@@ -36,8 +36,22 @@ C:\Program Files\ffmpeg
   ```
   Gehe zu den Systemeinstellungen -> Erweiterte Systemeinstellungen -> Umgebungsvariablen -> Path -> Bearbeiten -> Neu -> Füge den Pfad ein -> OK.
 
-- Überprüfen der Installation
+
+- - Überprüfen der Installation
   Überprüfe die Installation von FFmpeg, indem du das folgende Kommando in der Kommandozeile ausführst:
+  ```bash
+  ffmpeg -version
+  ```
+  
+Linux
+- Installation:
+  Installiere FFmpeg direkt über den Paketmanager deiner Distribution:
+  ```bash
+  sudo apt-get install ffmpeg  # Für Debian/Ubuntu
+  ```
+
+- Überprüfen der Installation
+Überprüfe die Installation von FFmpeg auf Windows und Linux:
   ```bash
   ffmpeg -version
   ```
